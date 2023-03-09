@@ -11,7 +11,7 @@
         android:layout_width="272dp"
         android:layout_height="80dp"
         android:layout_marginTop="160dp"
-        android:background="#9E9E9E"
+        android:background="@color/utd_silver"
         android:text="Clear attendance sheet"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,31 +22,19 @@
         android:id="@+id/clear_signed"
         android:layout_width="272dp"
         android:layout_height="80dp"
-        android:layout_marginTop="64dp"
-        android:background="#9E9E9E"
+        android:layout_marginTop="100dp"
+        android:background="@color/utd_silver"
         android:text="Clear signed-in students"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/clr_attend" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/disconnectBT"
-        android:layout_width="272dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="80dp"
-        android:background="#9E9E9E"
-        android:text="Disconnect Bluetooth"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/clear_signed" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:background="#E87722"
+        android:background="@color/utd_green"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
